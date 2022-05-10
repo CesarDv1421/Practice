@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    /*border: 1px solid black;*/
+}
+
+.LogoPersonal {
+    /*border: 1px solid black;*/
+    width: 100px;
+    margin: 10px 60px;
+
+}
+
+header>a {
+    color: black;
+    /*border: 1px solid black;*/
+    margin: auto;
+    padding: 10%;
+}
+
+.sign_up {
+    color: white;
+    background-color: orangered;
+    border-radius: 10px;
+}
+
+section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.principal_Section {
+    margin: 0 auto;
+}
+
+.principal_Section>* {}
+
+.psOne {
+    margin: 80px auto 20px;
+    font-size: 15px;
+}
+
+.psTwo {
+    font-size: 500%;
+    line-height: 85%;
+    margin: auto;
+}
+
+.psThree {
+    margin: 20px auto 40px auto;
+}
+
+.treeItFree {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: orangered;
+    color: white;
+    margin: 50px 180px 0 0;
+}
+
+.demo {
+    border: solid 2px orangered;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.sectionIphone {
+    margin: auto;
+    width: 70%;
+}
